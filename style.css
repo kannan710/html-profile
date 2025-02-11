@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: #000;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding: 10px 20%;
+    justify-content: space-between;
+    background-color: transparent;
+}
+.header .logo img{
+    height: 30px;
+    padding-top: 5px;
+}
+.header .nav-bar{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    font-size: 30px;
+}
+.header .nav-bar a{
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: 20px;
+}
+h1{
+    font-size:80px;
+    text-align: center;
+    margin-top: 80px;
+}
+.container{
+    padding: 25px 25px;
+    margin: 25px 20%;
+    background-color: #141414;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 8px;
+} 
+.container > p{
+    background-color: transparent;
+    align-self: flex-end;
+}
+.container > img{
+    align-self: center;
+}
+.skill{
+    margin: 100px 20%;
+}
+.skill-container{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.skill-container > div {
+    text-align: center;
+    font-size: x-large;
+    background-color: #141414;
+    border-radius: 12px;
+    padding:10px;
+}
+.skill-container .heading{
+    background-color: transparent;
+    padding: 25px;
+    grid-column: span 3;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+.about{
+    margin: 0px 20%;
+}
+.grid-container>img{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.grid-container > p > span{
+    font-size: x-large;
+    font-family: sans-serif;
+}
+.grid-container > p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 0px 30px;
+    margin-top: 20px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+}
+.flex-container{
+    margin: 25px 20%;
+    display: flex;
+    align-items: center;
+}
+.flex-container > p{
+    margin-right: 30px;
+    text-decoration: none;
+    font-weight:lighter;
+    font-size: 30px;
+}
+.footer{
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #141414;
+}
+.head2{
+    font-size: 40px;
+    padding: 40px 0px;
+}
+.content{
+    margin: 0px 20%;
+    padding-bottom: 100px;
+}
